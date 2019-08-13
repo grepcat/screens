@@ -11,6 +11,12 @@ int main() {
   /* prints the string into the window */
   printw("%s", "Hello World");
 
+  /* moves the cursor to the specified location */
+  move (6,15);
+
+  /* prints the string into the window */
+  printw("%s", "Hello Again");
+
   /* refreshes the screen to match what's in memory */
   refresh();
 
